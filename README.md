@@ -58,5 +58,5 @@ Description: We noticed in the Network tab that there are two scripts are fetche
 - dynamically loading those scripts when needed to avoid unnecessary script evaluation.
 
 #### Results:
-- Lighthouse showed a big improvement in performance score
+- Lighthouse showed a big improvement in performance score, eliminating loading scripts eliminated lots of code to be parsed by the javascript engine and that decreased the Time To Interactive and Total Blocking Time
 ![](./images/performance-after-removing-scripts.png)
