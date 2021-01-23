@@ -31,8 +31,8 @@ Description: Lighthouse report suggested that we can remove unused CSS, as it sl
 - the `styles.js` file it's size significantly decreased from 108kb (~4500 lines) to 31kb (~1500 lines).
 
 #### Results:
-- The Lighthouse audit report didn't show much improvement in the preformance, but the total blocking time has decreased by ~300ms and first contentful paint decreased by 200ms
-<img src="./images/performance-core-after-removing-css.png">
+- The Lighthouse audit report didn't show much improvement in performance score, but the total blocking time has decreased by ~300ms and first contentful paint decreased by 200ms
+![](./images/performance-core-after-removing-css.png)
 
 ## Trial #3 (Use onPush Strategy)
 Description:
