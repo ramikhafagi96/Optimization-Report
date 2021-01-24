@@ -51,7 +51,7 @@ Description:
 ![](./images/performance-score-after-on-push.png)
 
 ## Trial #4 (Dynamically Loading Scripts)
-Description: We noticed in the Network tab that there are two scripts are fetched on app load and they increase the script evaluation time, and they're not loaded on app startup.
+Description: We noticed in the Network tab that there are two scripts are fetched on app loaa and they increase the script evaluation time, and they're not needed on app startup.
 ![](./images/network-tab.png)
 
 #### Steps:
